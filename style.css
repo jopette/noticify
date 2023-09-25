@@ -47,3 +47,19 @@
    background-color: var(--bg-gray);
    box-shadow: 2px 2px 5px rgb(209 211 213);
  }
+.office-gbg {
+   display:flex;
+   gap: 13px;
+}
+.animals-gbg {
+   display:flex;
+   gap: 13px;
+}
+.money-gbg {
+   display:flex;
+   gap: 13px;
+}
+.jobs-gbg {
+   display:flex;
+   gap: 13px;
+}
