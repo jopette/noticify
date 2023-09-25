@@ -1,0 +1,49 @@
+:root {
+    --red: #fa6262;
+    --blue: #cae9f2;
+    --bg-gray: #fbfbfb;
+    --yellow: #fffacc;
+    --green: #e2efc7;
+    --pink: #efc7c7;
+    --font-color: #000;
+    --blue-solid: #a1dbed;
+    --green-solid: #d4eda1;
+  }
+ body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+ }
+ * {
+    box-sizing: border-box;
+ }
+ header {
+   display: flex;
+   margin-left: 39px;
+   justify-content: space-between;
+    align-items: center;
+ }
+ nav {
+   margin-right: 39px;
+ }
+ main {
+   margin-left: 39px;
+   display: flex;
+ }
+ .card-container {
+   display: flex;
+   flex-wrap: wrap;
+   width:50%;
+ }
+ .welcome-container {
+   display: flex;
+   width:50%;
+   justify-content: center;
+ }
+ .card-container div {
+   border-radius: 20px;
+   width: 347px;
+   height: 332px;
+   margin: 10px;
+   background-color: var(--bg-gray);
+   box-shadow: 2px 2px 5px rgb(209 211 213);
+ }
